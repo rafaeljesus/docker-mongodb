@@ -1,22 +1,19 @@
-# docker-mongodb
+# Docker Mongodb
+
 Dockerfile to build a MongoDb container image
 
-### Basic way
-### Usage: docker run --name <name for container> -d <user-name>/<repository>
-$ docker run -p 27017:27017 --name mongo_instance_001 -d my/repo
+## Usage
+```bash
+$ docker run --name mongo -d rafaeljesus/mongodb --smallfiles
+```
 
-### Dockerized MongoDB, lean and mean!
-### Usage: docker run --name <name for container> -d <user-name>/<repository> --noprealloc --smallfiles
-$ docker run -p 27017:27017 --name mongo_instance_001 -d my/repo --smallfiles
+## Contributing
+- Fork it
+- Create your feature branch (`git checkout -b my-new-feature`)
+- Commit your changes (`git commit -am 'Add some feature'`)
+- Push to the branch (`git push origin my-new-feature`)
+- Create new Pull Request
 
-### Checking out the logs of a MongoDB container
-### Usage: docker logs <name for container>
-$ docker logs mongo_instance_001
+### Maintaners
 
-### Playing with MongoDB
-### Usage: mongo --port <port you get from `docker ps`>
-$ mongo --port 27017
-
-### If using docker-machine
-### Usage: mongo --port <port you get from `docker ps`>  --host <ip address from `docker-machine ip VM_NAME`>
-$ mongo --port 27017 --host 192.168.59.103
+* [Rafael Jesus](https://github.com/rafaeljesus)
