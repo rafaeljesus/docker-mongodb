@@ -2,6 +2,10 @@
 
 Dockerfile to build a MongoDb container image
 
+[![Docker Image Size](https://img.shields.io/imagelayers/image-size/rafaeljesus/docker-mongodb/latest.svg)](https://hub.docker.com/r/rafaeljesus/docker-mongodb/)
+
+[![Docker Image Pulls](https://img.shields.io/docker/pulls/rafaeljesus/event-track.svg)](https://hub.docker.com/r/rafaeljesus/docker-mongodb/)
+
 ## Usage
 ```bash
 $ docker run --name mongo -d rafaeljesus/mongodb --smallfiles
