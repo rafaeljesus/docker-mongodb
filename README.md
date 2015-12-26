@@ -9,7 +9,7 @@ Dockerfile to build a MongoDb container image
 ```bash
 $ docker-machine start default
 $ eval $(docker-machine env default)
-$ docker run --name mongo -d rafaeljesus/mongodb --smallfiles
+$ docker run --name mongo -d rafaeljesus/docker-mongodb --smallfiles
 ```
 
 ## Contributing
