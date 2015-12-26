@@ -12,6 +12,11 @@ $ eval $(docker-machine env default)
 $ docker run --name mongo -d rafaeljesus/docker-mongodb --smallfiles
 ```
 
+## Run a command in the container
+```bash
+$ docker exec -it image_id bash
+```
+
 ## Contributing
 - Fork it
 - Create your feature branch (`git checkout -b my-new-feature`)
